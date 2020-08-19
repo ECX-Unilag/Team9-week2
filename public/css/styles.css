@@ -1,0 +1,111 @@
+/* General styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 14px;
+}
+
+body {
+    color: #323232;
+    font-family: 'Mulish', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    padding: 1em;
+}
+
+header {
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+h1 {
+    color: #DB2626;
+    text-transform: uppercase;
+}
+
+/* General classes */
+.flex {
+    display: flex;
+}
+
+.img-div img {
+    width: 100%;
+}
+
+.about-flex-text,
+.signs-flex-text {
+    margin: 1em 0;
+}
+
+/* About page */
+.about-flex {
+    background: #0D1528;
+    color: #fff;
+    flex-direction: column-reverse;
+    margin: 1em 0;
+}
+
+.about-flex-text {
+    padding: 0.75em;
+}
+
+/* Signs page */
+.signs-flex {
+    flex-direction: column;
+}
+
+/* Media queries */
+@media (min-width: 500px) {
+    /* General classes */
+    .img-div {
+        margin: 0 auto;
+        width: 75%;
+    }
+}
+
+@media (min-width: 700px) {
+    /* General styles */
+    html {
+        font-size: 18px;
+    }
+
+    /* About page */
+    .about-flex {
+        flex-direction: row;
+        margin: 1em auto;
+        width: 90%;
+    }
+
+    .about-flex-text p {
+        margin: 1em 0;
+        padding: 0.25em;
+    }
+
+    .about-img-div {
+        flex: 300px 0 0;
+        margin-left: 1.5em;
+    }
+
+    /* Signs page */
+    .signs-flex {
+        flex-direction: row;
+        margin: 1em 0;
+    }
+
+    .signs-img-div {
+        flex: 400px 0 0;
+        margin-right: 2.5em;
+    }
+
+    .signs-flex-text {
+        width: 75%;
+    }
+
+    .signs-flex-2 p {
+        align-self: flex-end;
+    }
+}
