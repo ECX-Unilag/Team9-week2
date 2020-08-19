@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID 19 Info Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./images/cdc-w9KEokhajKw-unsplash.png" type="image/png">
+    <script src="https://kit.fontawesome.com/c0bb1150f1.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,500&display=swap" rel="stylesheet">
+</head>
+<body onload="stateResults()">
+    <header>
+        <p class="logo">COVID</p>
+        <a onclick="closeNav()" class="close" id="close" href="javascript:;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" ><path fill="whitesmoke" fill-rule="evenodd" d="M17.778.808l1.414 1.414L11.414 10l7.778 7.778-1.414 1.414L10 11.414l-7.778 7.778-1.414-1.414L8.586 10 .808 2.222 2.222.808 10 8.586 17.778.808z"/></svg>
+        </a>
+        <a onclick="openNav()" id="open" class="open" href="javascript:;">
+            <i class="fas fa-bars"></i>
+        </a>
+        <div class="menu-container">
+            <div class="menu" id="links"> 
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#symptoms">Symptoms</a></li>
+                <li><a href="#preventions">Preventions</a></li>
+                <li><a href="#statistics">Statistics</a></li>
+            </div>
+        </div>
+        <div class="center">
+            <p>CORONA VIRUS</p>
+            <p>COVID-19</p>
+        </div>
+    </header>
+   
+        
+    
+    <section id="about">
+        <h1>About</h1>
+        <p class="about-text">The 2019–20 coronavirus pandemic is an ongoing pandemic of coronavirus disease 2019 (COVID-19), caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). The outbreak was first identified in Wuhan, Hubei Province, China, in December 2019. The World Health Organization (WHO) declared the outbreak to be a Public Health Emergency of International Concern on 30 January 2020 and recognized it as a pandemic on 11 March 2020. As of 2 April 2020, more than 981,000 cases of COVID-19 have been reported in over 180 countries and 200 territories, resulting in over 50,200 deaths, more than 204,000 people have recovered.</p>
+        <div class="about-flex">
+            <div class="about-flex-text">
+                <p>The virus is mainly spread during close contact and by small droplets produced when people cough or sneeze. Respiratory droplets may be produced during breathing but the virus is not generally airborne. People may also catch COVID-19 by touching a contaminated surface and then their face. It is most contagious when people are symptomatic, although spread may be possible before symptoms appear. The time between exposure and symptom onset is typically around five days, but may range from 2 to 14 days.</p>
+                <p>Common symptoms include fever, cough, and shortness of breath. Complications may include pneumonia and acute respiratory distress syndrome. There is no known vaccine or specific antiviral treatment. Primary treatment is symptomatic and supportive therapy. Recommended preventive measures include hand washing, covering one's mouth when coughing, maintaining distance from other people, and monitoring and self-isolation for people who suspect they are infected.</p>
+            </div>
+            <div class="about-img-div ">
+                <img class="about-img" src="./images/cdc-k0KRNtqcjfw-unsplash.png" alt="A health worker">
+            </div>
+        </div>
+    </section>
+    
+    <section id="symptoms">
+        <h1>Signs and Symptoms</h1>
+    <p class="symptoms-text">Symptoms of COVID-19 can be relatively non-specific and infected people may be asymptomatic.</p>
+        <div class="signs-flex">
+            <div class="signs-img-div">
+                <img class="signs-img" src="./images/cdc-ioZc-2TpcjY-unsplash.png" alt="A sick person">
+            </div>
+            <p>The two most common symptoms are fever (88%) and dry cough (68%). Less common symptoms include fatigue, respiratory sputum production (phlegm), loss of the sense of smell, shortness of breath, muscle and joint pain, sore throat, headache, or chills. The WHO states that approximately one person in six becomes seriously ill and has difficulty breathing. The U.S. Centers for Disease Control and Prevention (CDC) lists emergency symptoms as difficulty breathing, persistent chest pain or pressure, sudden confusion, difficulty waking, and bluish face or lips; immediate medical attention is advised if these symptoms are present.</p>
+        </div>
+        <div class="signs-flex">
+            <div class="signs-img-div">
+                <img class="signs-img" src="./images/annie-spratt-_S0XzuaZLas-unsplash.png" alt="A person coughing">
+            </div>
+            <p id="flex-text">Further development of the disease can lead to severe pneumonia, acute respiratory distress syndrome, sepsis, septic shock and death. Some of those infected may be asymptomatic, with no clinical symptoms but test results that confirm infection, so researchers have issued advice that those with close contact to confirmed infected people should be closely monitored and examined to rule out infection. Chinese estimates of the asymptomatic ratio range from few to 44%. The usual incubation period (the time between infection and symptom onset) ranges from one to 14 days; it is most commonly five days.</p>
+        </div>
+    </section> 
+    <section id="preventions">
+        <h1>Preventions</h1>
+      
+            <div id="reverse" class="preventions-flex">
+                <div class="prevention-text">
+                <p >Strategies for preventing transmission of the disease include maintaining overall good personal hygiene, washing hands, avoiding touching the eyes, nose, or mouth with unwashed hands, and coughing or sneezing into a tissue and putting the tissue directly into a waste container. Those who may already have the infection have been advised to wear a surgical mask in public.</p>
+                </div>
+                <div class="prevention-img">
+                    <img class="prevent-img"src="./images/kelly-sikkema-U7WKYPKOyHg-unsplash.png" alt="">
+                </div>
+            </div>
+            <div id="reverse" class="preventions-flex">
+                <div id="flex-text" class="prevention-text">
+                <p  >Physical distancing measures are also recommended to prevent transmission. Many governments have restricted or advised against all non-essential travel to and from countries and areas affected by the outbreak. However, the virus has reached the stage of community spread in large parts of the world. This means that the virus is spreading within communities, and some community members don't know where or how they were infected.</p>
+                </div>
+                <div class="prevention-img">
+                    <img class="prevent-img" src="./images/kelly-sikkema-V_-vbcHMATA-unsplash.png" alt="">
+                </div>
+            </div>
+            <div class="preventions-flex">
+                <div class="prevention-img">
+                    <img class="prevent-img" src="./images/national-cancer-institute-eR5-JoSw1Mo-unsplash.png" alt="">
+                </div>
+                <div class="prevention-text">
+                <p class="prevent-text"> Health care providers taking care of someone who may be infected are recommended to use standard precautions, contact precautions, and eye protection. Contact tracing is an important method for health authorities to determine the source of an infection and to prevent further transmission.</p>
+                </div>
+                
+            </div>
+            <div class="preventions-flex">
+                <div class="prevention-img">
+                    <img class="prevent-img"  src="./images/kian-zhang-VUjGmbtcCBk-unsplash.png" alt="">
+                </div>
+                <div id="flex-text" class="prevention-text">
+                <p class="prevent-text"  >Misconceptions are circulating about how to prevent infection; for example, rinsing the nose and gargling with mouthwash are not effective. As of 29 March 2020, there is no COVID-19 vaccine, though many organizations are working to develop one.</p>
+                </div>
+                
+            </div>
+       
+    </section>
+    <section id="statistics">
+        <p class="stat">STATISTICS</p>
+        <p class="select">Please select country</p>
+        <div class="options">
+        <select id="mySelect" >
+            <option>Nigeria</option>
+            <option>United States of America</option>
+            <option>China</option>
+            <option>Russia</option>
+            <option>Italy</option>
+            <option>Spain</option>
+            <option>Iran</option>
+            <option>United Kingdom</option>
+            <option>Switzerland</option>
+            <option>Turkey</option>
+            <option>France</option>
+            <option>Germany</option>
+        </select>
+        </div>
+        <div class="results">
+            <div class="one">
+                <p>Confirmed</p>
+                <p id="confirmed">44000</p>
+            </div>
+            <div class="one">
+                <p>Recovered</p>
+                <p id="recovered">36497</p>
+            </div>
+            <div>
+                <p>Deaths</p>
+                <p id="deaths">490</p>
+            </div>
+        </div>
+       <div class="state">
+            <div id="state-heading" class="state-result">
+                <p id="location">LOCATION</p>
+                <p>Confirmed</p>
+                <p>Recovered</p>
+                <p>Deaths</p>
+            </div>
+            <div class="state-result">
+                <p id="lagos">Lagos</p>
+                <p id="lagos-confirmed">100</p>
+                <p id="lagos-recovered">100</p>
+                <p id="lagos-death">100</p>
+            </div>
+            <div class="state-result">
+                <p id="fct">Federal Capital Territory</p>
+                <p id="fct-confirmed" >100</p>
+                <p id="fct-recovered">100</p>
+                <p id="fct-death">100</p>
+            </div>
+            <div class="state-result">
+                <p id="oyo">Oyo</p>
+                <p id="oyo-confirmed">100</p>
+                <p id="oyo-recovered">100</p>
+                <p id="oyo-death">100</p>
+
+            </div>
+            <div class="state-result">
+                <p id="edo">Edo</p>
+                <p id="edo-confirmed">100</p>
+                <p id="edo-recovered">100</p>
+                <p id="edo-death">100</p>
+
+            </div>
+            <div class="state-result">
+                <p id="rivers">Rivers</p>
+                <p id="rivers-confirmed">100</p>
+                <p id="rivers-recovered">100</p>
+                <p id="rivers-death">100</p>
+
+            </div>
+    
+       </div>
+    </section>
+    <footer>
+        <h2>CONTACTS</h2>
+        <div class="footer-flex">
+            <img src="./images/icon-location.svg" alt="">
+            <p>Plot 801, Ebitu Street, Jabi, Abuja, Nigeria </p>
+        </div>
+        <div class="footer-flex">
+            <img src="./images/icon-phone.svg" alt="">
+            <p>080097000010 (Toll-Free Call Center)</p>
+        </div>
+        <div class="footer-flex">
+            <img src="./images/icon-email.svg" alt="">
+            <p>info@ncdc.gov.ng </p>
+        </div>
+        <h2>SOCIAL MEDIA</h2>
+        <div class="footer-flex">
+            <img src="./images/Rectangle19.png" alt="">
+            <p>@NCDCgov </p>
+        </div>
+        <div class="footer-flex">
+            <img src="./images/Rectangle20.png" alt="">
+            <p>@NCDCgov </p>
+        </div>
+        <div class="footer-flex">
+            <img src="./images/Rectangle21.png" alt="">
+            <p>NCDC</p>
+        </div>
+        <div class="footer-flex">
+            <img src="./images/Rectangle22.png" alt="">
+            <p>NCDCgov</p>
+        </div>
+        <div class="footer-flex">
+            <img src="./images/icon-email.svg" alt="">
+            <p>t.me/NCDCgov(Telegram)</p>
+        </div>
+
+        <div class="border"></div>
+
+        <button>Subscribe to Newsletter</button>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
